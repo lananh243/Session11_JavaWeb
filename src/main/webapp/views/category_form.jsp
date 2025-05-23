@@ -13,7 +13,7 @@
 </head>
 <body>
     <h2>Form Category</h2>
-    <form:form modelAttribute="categoryDTO">
+    <form:form modelAttribute="categoryDTO" action="add-category" method="post">
         <label for="categoryName">Tên danh mục: </label>
         <form:input path="categoryName" id="categoryName"/>
         <br>
